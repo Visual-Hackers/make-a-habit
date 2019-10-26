@@ -5,7 +5,7 @@
       wrap
     >
     <a href="">Hello there</a>
-    <a href="link.href">{{ link.text }}</a>
+    <viewlink :href="viewlink.href">{{ viewlink.text }}</a>
     </v-layout>
   </v-container>
 </template>
@@ -13,7 +13,7 @@
 <script>
 export default {
   data: () => ({
-    link: [
+    viewlink: [
       {
         text: 'Make a Habit',
         href: ''
