@@ -4,8 +4,8 @@
       text-center
       wrap
     >
-    <a href="">{{ viewlink.text }}</a>
-    <a :href="viewlink.href">{{ viewlink.text }}</a>
+      <a href="">{{ viewlink.text }}</a>
+      <a :href="viewlink.href">{{ viewlink.text }}</a>
     </v-layout>
   </v-container>
 </template>
