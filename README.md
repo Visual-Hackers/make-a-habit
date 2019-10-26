@@ -1,24 +1,3 @@
 # make-a-habit
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A web app designed to help people stay committed to a habit by clarifying and reaffirming just what kind of a habit they want to develop
