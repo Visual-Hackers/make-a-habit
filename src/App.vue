@@ -3,7 +3,7 @@
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span class="font-weight-light">Make a Habit</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -16,21 +16,18 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <Homepage/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Homepage from './components/Homepage';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Homepage,
   },
-  data: () => ({
-    //
-  }),
 };
 </script>
