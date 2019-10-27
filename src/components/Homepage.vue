@@ -53,7 +53,7 @@
         <v-card
           class="mb-12"
           color="grey lighten-1"
-          height="200px"
+          height="150px"
         >
         <v-text-field
             v-model="describe"
@@ -74,7 +74,7 @@
         <v-card
           class="mb-12"
           color="grey lighten-1"
-          height="200px"
+          height="150px"
         >
         <v-text-field
             v-model="describe"
@@ -95,7 +95,7 @@
         <v-card
           class="mb-12"
           color="grey lighten-1"
-          height="200px"
+          height="150px"
         >
         <v-text-field
             v-model="describe"
