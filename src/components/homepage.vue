@@ -42,75 +42,72 @@
   </v-row> -->
   <v-stepper v-model="e1">
     <v-stepper-header>
-      <v-stepper-step :complete="e1 > 1" step="1">Trigger of step 1</v-stepper-step>
+      <v-stepper-step :complete="e1 > 1" color ="#43a047" step="1">Trigger</v-stepper-step>
       <v-divider></v-divider>
-      <v-stepper-step :complete="e1 > 2" step="2">Routine of step 2</v-stepper-step>
+      <v-stepper-step :complete="e1 > 2" color ="#43a047" step="2">Routine</v-stepper-step>
       <v-divider></v-divider>
-      <v-stepper-step step="3">Reward of step 3</v-stepper-step>
+      <v-stepper-step color ="#43a047" step="3">Reward</v-stepper-step>
     </v-stepper-header>
     <v-stepper-items>
       <v-stepper-content step="1">
         <v-card
           class="mb-12"
-          color="grey lighten-1"
-          height="150px"
+          color="#FFFF"
+          height="44px"
         >
         <v-text-field
             v-model="describe"
             :rules="describeRules"
-            label="describe"
+            label="What is your necessary for trigger?"
             required
           ></v-text-field>
         </v-card>
         <v-btn
-          color="primary"
+          color="#a6f1a6"
           @click="e1 = 2"
         >
           Continue
         </v-btn>
-        <v-btn text>Cancel</v-btn>
       </v-stepper-content>
       <v-stepper-content step="2">
         <v-card
           class="mb-12"
-          color="grey lighten-1"
-          height="150px"
+          color="#FFFF"
+          height="44px"
         >
         <v-text-field
             v-model="describe"
             :rules="describeRules"
-            label="describe"
+            label="Can you explain your routine?"
             required
           ></v-text-field>
         </v-card>
         <v-btn
-          color="primary"
+          color="#a6f1a6"
           @click="e1 = 3"
         >
           Continue
         </v-btn>
-        <v-btn text>Cancel</v-btn>
       </v-stepper-content>
       <v-stepper-content step="3">
         <v-card
           class="mb-12"
-          color="grey lighten-1"
-          height="150px"
+          color="#FFFF"
+          height="44px"
         >
         <v-text-field
             v-model="describe"
             :rules="describeRules"
-            label="describe"
+            label="What's your reward?"
             required
           ></v-text-field>
         </v-card>
         <v-btn
-          color="primary"
+          color="#a6f1a6"
           @click="e1 = 1"
         >
           Continue
         </v-btn>
-        <v-btn text>Cancel</v-btn>
       </v-stepper-content>
     </v-stepper-items>
   </v-stepper>
