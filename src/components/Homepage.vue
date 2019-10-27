@@ -58,7 +58,7 @@
         <v-stepper-content step="3">
           <v-card
             class="mb-12"
-            color="#FFFF"
+            color="#FFF"
             height="44px">
             <v-text-field
               v-model="describe"
@@ -79,7 +79,7 @@
 
 <script>
   export default {
-    data() {
+    data () {
       return {
         dialog: false,
         notifications: false,
