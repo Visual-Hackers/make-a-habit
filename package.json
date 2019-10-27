@@ -12,7 +12,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "core-js": "^3.3.2",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.7",
     "vue": "^2.6.10",
     "vuetify": "^2.1.0"
   },
