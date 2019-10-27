@@ -12,7 +12,7 @@
               <v-layout justify-center>
                 <v-card class="d-inline-block mx-auto">
                   <v-card class="mx-auto" min-width="300" tile>
-                    <v-list flat>
+                    <v-list class="elevation=0" flat>
                       <v-subheader>Triggers</v-subheader>
                       <v-list-item-group v-model="itemA" color="primary">
                         <v-list-item v-for="(itemA, i) in itemsA" :key="i">
